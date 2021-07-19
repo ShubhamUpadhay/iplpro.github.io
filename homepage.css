@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    background-color: lightblue;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(60deg, cornflowerblue,rgb(89, 201, 245), whitesmoke,rgb(88, 186, 224), cornflowerblue);
+    height: 10vh;
+    padding-right: 5%;
+}
+#ipllogo>img {
+    background: linear-gradient(180Deg,orange,white,green);
+    height: 100%;
+    width: 80%;
+    margin-left: -3%;
+}
+#ipllogo{
+height: 100%;
+width: 20%;
+padding:10px;
+}
+nav > div:nth-of-type(2) {
+    position: relative;
+    width: 25%;
+}
+nav > div:nth-of-type(2) > input {
+    width: 100%;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.801);
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 5px snow;
+    font-size: 18px;
+    border-radius: 7px;
+}
+nav > div:nth-of-type(2) > input::placeholder {
+font-size: 15px;
+font-family: 600;
+}
+nav > div:nth-of-type(2) > i {
+    position: absolute;
+    right: 2px;
+    top: 7px;
+    z-index: 2;
+}
+nav > div:nth-of-type(2) >div {
+    width: 150px;
+    max-height: 250px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 5px snow;
+    overflow-y: auto;
+    padding: 2%;
+    display: none;
+    font-size: 15px;
+}
+#searchedP > p {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.514);
+}
+.myButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+    font-weight: 600;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    margin-right: 25%;
+    width: 100%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+nav > div:nth-of-type(3) {
+    position: relative;
+}
+nav > div:nth-of-type(3) > button {
+    border: 0;
+    padding: 8px;
+    margin-left: 10px;
+}
+#inputTaker {
+    background-color: rgba(15, 195, 255, 0.836);
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    width: 100%;
+    min-width: 300px;
+    padding: 2%;
+    padding-bottom: 15px;
+    right: 50%;
+    top: 10vh;
+    display: none;
+}
+#inputTaker > div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+#inputTaker > div > input{
+width: 90%;
+border: 0;
+outline: 0;
+font-size: 18px;
+background: transparent;
+}
+#inputTaker > div > label{
+    font-size: 18px;
+}
+#inputTaker > div:nth-of-type(8){
+    display: flex;
+    align-items: center;
+}
+ #inputTaker > div > button {
+        font-size: 18px;
+        border-radius: 10px;
+        border: 0;
+        margin-top: 3px;
+        width: 50%;
+        color: rgb(0, 0, 0);
+        background-color: rgb(29, 135, 177);
+}
+#cardContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 35px;
+    row-gap: 30px;
+    box-sizing: border-box;
+    padding: 2%;
+}
+#cardContainer > div {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.562);
+    box-sizing: border-box;
+    border-radius: 9px;
+    border-bottom-right-radius: 50px;
+    background-color: whitesmoke;
+    
+    border-top-left-radius: 50px;
+}
+#cardContainer > div:hover{
+    box-shadow: 0 0 8px rgb(0, 53, 211);
+}
+.imgC {
+    height: 300px;
+    padding: 10px 10px 0px 10px;
+}
+.imgC > img {
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    border-top-left-radius: 50px;
+}
+.info {
+    width: 100%;
+    margin-top: 0;
+    padding: 3%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.808);
+    letter-spacing: 2px;
+}
+.info > h4 {
+    color: royalblue;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+.info > h5 {
+    color: rgba(0, 0, 0, 0.699);
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 15px;
+    padding: 3px;
+}
+footer{
+    background-color: blanchedalmond;
+    height: 10vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+
+
+@media (max-width:950px){
+    #cardContainer {
+        grid-template-columns: auto auto auto;
+    }
+    nav > div:nth-of-type(2) {
+        width: 35%;
+    }
+    .myButton{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+@media (max-width:720px){
+    #cardContainer {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:550px){
+    #cardContainer{
+        grid-template-columns: auto;
+    }
+    #cardContainer > div {
+       width: 80%;
+       margin: 0 auto;
+    }
+}
+@media (max-width:480px){
+    
+    nav > div:nth-of-type(2) {
+       display: none;
+    }
+    #ipllogo{
+        width: 40%;
+    }
+    
+}
+@media (max-width:350px){
+    
+    #cardContainer > div {
+       width: 100%;
+    }
+    
+}
