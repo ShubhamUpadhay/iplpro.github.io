@@ -868,7 +868,7 @@ var players = [
         logo: "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png"
     },
     {
-        name: "Kedar JAdhav",
+        name: "Kedar Jadhav",
         photo: "https://static.iplt20.com/players/210/297.png",
         team: "Sunrisers Hyderabad",
         price: "RS 40 Million",
