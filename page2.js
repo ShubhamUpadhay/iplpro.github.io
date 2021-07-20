@@ -67,15 +67,15 @@ $(document).ready(function () {
                 $('#inputTaker').css("display", "block");
                 $('#inputTaker').append(
                     $('<div>').append(
-                        $('<label>').text('Enter player Name'),
+                        $('<label>').text('Player Name'),
                         $('<input>').attr("id", "playername")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter link for photo'),
+                        $('<label>').text('Link for Photo'),
                         $('<input>').attr("id", "playerphoto")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter player team'),
+                        $('<label>').text('Enter Team'),
                         $('<input>').attr(
                             {
                                 "id": "playerteam",
@@ -84,15 +84,15 @@ $(document).ready(function () {
                             })
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter price for player'),
+                        $('<label>').text('Price of player'),
                         $('<input>').attr("id", "playerprice")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter playing Status'),
+                        $('<label>').text('Playing Status'),
                         $('<input>').attr("id", "playerstatus")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter role of player'),
+                        $('<label>').text('Role of Player'),
                         $('<input>').attr("id", "playerrole")
                     ),
                     $('<div>').append(

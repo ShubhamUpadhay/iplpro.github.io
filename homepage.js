@@ -1027,31 +1027,31 @@ $(document).ready(function () {
                 $('#inputTaker').css("display", "block");
                 $('#inputTaker').append(
                     $('<div>').append(
-                        $('<label>').text('Enter Team Name'),
+                        $('<label>').text('Team Name'),
                         $('<input>').attr("id", "teamname")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter link for Icon'),
+                        $('<label>').text('Icon link'),
                         $('<input>').attr("id", "teamicon")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter no of players in your team'),
+                        $('<label>').text('Number Of Players'),
                         $('<input>').attr("id", "teamcount")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter Captain for your team'),
+                        $('<label>').text('Enter Captain '),
                         $('<input>').attr("id", "teamcaptain")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter top batsman'),
+                        $('<label>').text('Top Batsman'),
                         $('<input>').attr("id", "teambat")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter top bowler'),
+                        $('<label>').text('Top Bowler'),
                         $('<input>').attr("id", "teambowl")
                     ),
                     $('<div>').append(
-                        $('<label>').text('No of times team became champion'),
+                        $('<label>').text('Championships Won'),
                         $('<input>').attr("id", "teamchamp")
                     ),
                     $('<div>').append(
