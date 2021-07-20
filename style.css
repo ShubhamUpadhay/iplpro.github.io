@@ -74,10 +74,10 @@ h3 {
     font-family: 'Yomogi', cursive;
 }
 
-footer {
-    width: 100%;
+footer {margin-left: -1%;
+    width: 101%;
     background-color: blanchedalmond;
-    height: 10vh;
+    height: 5vh;
     display: grid;
     place-items: center;
 }
