@@ -1055,7 +1055,7 @@ $(document).ready(function () {
                         $('<input>').attr("id", "teamchamp")
                     ),
                     $('<div>').append(
-                        $('<button>').text('Submit').click(() => {
+                        $('<button>').text('ADD Team').click(() => {
 
                             let a = document.getElementById("teamname").value
                             let b = document.getElementById("teamicon").value

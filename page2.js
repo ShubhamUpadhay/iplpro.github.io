@@ -96,7 +96,7 @@ $(document).ready(function () {
                         $('<input>').attr("id", "playerrole")
                     ),
                     $('<div>').append(
-                        $('<button>').text('Submit').click(() => {
+                        $('<button>').text('ADD Player').click(() => {
                             let a = document.getElementById("playername").value
                             let b = document.getElementById("playerphoto").value
                             let c = document.getElementById("playerteam").value
