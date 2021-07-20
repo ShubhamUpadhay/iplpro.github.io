@@ -1039,7 +1039,7 @@ $(document).ready(function () {
                         $('<input>').attr("id", "teamcount")
                     ),
                     $('<div>').append(
-                        $('<label>').text('Enter Captain '),
+                        $('<label>').text('Enter Captain'),
                         $('<input>').attr("id", "teamcaptain")
                     ),
                     $('<div>').append(
