@@ -424,7 +424,7 @@ var players = [
         logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png"
     },
     {
-        name: "Quibton de Kock",
+        name: "Quinton de Kock",
         photo: "https://static.iplt20.com/players/210/834.png",
         team: "Mumbai Indians",
         price: "RS 50 Million",
@@ -904,7 +904,7 @@ var players = [
         logo: "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png"
     },
     {
-        name: "JAson Holder",
+        name: "Jason Holder",
         photo: "https://static.iplt20.com/players/210/1075.png",
         team: "Sunrisers Hyderabad",
         price: "Rs 5 million",
@@ -913,7 +913,7 @@ var players = [
         logo: "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png"
     },
     {
-        name: "BAsil Thampi",
+        name: "Basil Thampi",
         photo: "https://static.iplt20.com/players/210/3825.png",
         team: "Sunrisers Hyderabad",
         price: "Rs 3 Million",
