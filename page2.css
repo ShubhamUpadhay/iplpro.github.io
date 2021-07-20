@@ -3,7 +3,8 @@ body {
     font-family: 'Otomanopee One', sans-serif;
     box-sizing: border-box;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -12,46 +13,50 @@ nav{
     font-size: 36px;
     letter-spacing: 3px;
     margin-bottom: -3%;
-    background:linear-gradient(60deg, cornflowerblue,rgb(89, 201, 245), whitesmoke,rgb(88, 186, 224), cornflowerblue);
+    background: linear-gradient(60deg, cornflowerblue, rgb(89, 201, 245), whitesmoke, rgb(88, 186, 224), cornflowerblue);
     box-shadow: 0 0 5px snow;
 }
-nav > h1{
+
+nav>h1 {
     font-family: 'Lobster', cursive;
     display: inline-block;
     background-color: #0082c8;
-    background-image: linear-gradient(45deg, red, blue,rgb(214, 41, 41));
+    background-image: linear-gradient(45deg, red, blue, rgb(214, 41, 41));
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
 .myButton {
-	box-shadow: 3px 4px 0px 0px #899599;
-	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-	background-color:#ededed;
-	border-radius:15px;
-	border:1px solid #d6bcd6;
-	display:inline-block;
-	cursor:pointer;
-	color:#3a8a9e;
-	font-family:Arial;
-	font-size:17px;
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
     font-weight: 600;
-	padding:7px 25px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-	background-color:#bab1ba;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
 }
 
-#teamInfo{
+.myButton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+#teamInfo {
     font-family: 'Lobster', cursive;
     display: flex;
     justify-content: space-around;
@@ -62,18 +67,21 @@ nav > h1{
     margin-top: 0;
     border-radius: 50px;
 }
-#teamLogo>img{
+
+#teamLogo>img {
     width: 230px;
     height: 230px;
-    filter: drop-shadow( 10px 5px 4px black);
+    filter: drop-shadow(10px 5px 4px black);
 
 }
-#teamLogo{
+
+#teamLogo {
     display: flex;
     justify-content: space-around;
-   
+
 }
-#detail{
+
+#detail {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -81,7 +89,9 @@ nav > h1{
     letter-spacing: 2px;
     padding: 15px;
 }
-#bestbat,#bestbowl{
+
+#bestbat,
+#bestbowl {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -89,16 +99,19 @@ nav > h1{
     font-size: 22px;
     letter-spacing: 2px;
 }
-#bestbat > img{
-    filter: drop-shadow( 8px 2px 4px black);
-}
-#bestbowl > img{
-    filter: drop-shadow( 8px 2px 4px black);
+
+#bestbat>img {
+    filter: drop-shadow(8px 2px 4px black);
 }
 
-main{
+#bestbowl>img {
+    filter: drop-shadow(8px 2px 4px black);
+}
+
+main {
     padding-top: 3%;
 }
+
 #inputTaker {
     background-color: rgba(0, 191, 255, 0.884);
     box-shadow: 0 0 5px black;
@@ -113,7 +126,8 @@ main{
     display: none;
     z-index: 10;
 }
-#inputTaker > div{
+
+#inputTaker>div {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -121,28 +135,32 @@ main{
     padding-bottom: 5px;
     border-radius: 10px;
 }
-#inputTaker > div > input{
-width: 90%;
-border: 0;
-outline: 0;
-font-size: 18px;
-background-color: transparent
+
+#inputTaker>div>input {
+    width: 90%;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    background-color: transparent
 }
-#inputTaker > div > label{
+
+#inputTaker>div>label {
     font-size: 18px;
 }
-#inputTaker > div:nth-of-type(7){
+
+#inputTaker>div:nth-of-type(7) {
     display: flex;
     align-items: center;
 }
- #inputTaker > div > button {
-        font-size: 18px;
-        border-radius: 10px;
-        border: 0;
-        margin-top: 3px;
-        width: 50%;
-        color: rgb(26, 73, 92);
-        background-color: skyblue;
+
+#inputTaker>div>button {
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 3px;
+    width: 50%;
+    color: rgb(26, 73, 92);
+    background-color: skyblue;
 }
 
 
@@ -156,7 +174,8 @@ background-color: transparent
     margin: 0 auto;
     padding: 2%;
 }
-#cardContainer > div {
+
+#cardContainer>div {
     width: 23%;
     height: 470px;
     margin-bottom: 3%;
@@ -167,23 +186,28 @@ background-color: transparent
     border-top-right-radius: 50px;
     overflow: hidden;
 }
-#cardContainer > div:hover{
+
+#cardContainer>div:hover {
     box-shadow: 0 0 5px whitesmoke;
 }
-.imgC{
+
+.imgC {
     width: 100%;
 }
-.imgC > img {
+
+.imgC>img {
     width: 100%;
     max-height: 450px;
     border-top-right-radius: 50px;
-    filter: drop-shadow( 8px 2px 4px black);
+    filter: drop-shadow(8px 2px 4px black);
 }
-#best{
+
+#best {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .info {
     width: 100%;
     height: 100%;
@@ -196,12 +220,14 @@ background-color: transparent
     letter-spacing: 2px;
     padding-left: 8%;
 }
-.info > h4 {
+
+.info>h4 {
     margin-top: 0;
     margin-bottom: 3px;
     font-size: 22px;
 }
-.info > h5 {
+
+.info>h5 {
     margin-top: 0;
     margin-bottom: 3px;
     font-size: 16px;
@@ -209,7 +235,7 @@ background-color: transparent
 }
 
 
-footer{
+footer {
     background-color: blanchedalmond;
     height: 10vh;
     display: grid;
@@ -217,56 +243,63 @@ footer{
 }
 
 
- @media (max-width:940px){
-    #teamInfo{
+@media (max-width:940px) {
+    #teamInfo {
         flex-direction: column;
     }
-    #best{
+
+    #best {
         display: flex;
         justify-content: space-evenly;
     }
-    #cardContainer > div {
-        width: 30%;
-     }
-     nav> h1{
-         font-size: 38px;
-     }
-   
-} 
 
-@media (max-width:768px){
-   #cardContainer > div {
-       width: 40%;
+    #cardContainer>div {
+        width: 30%;
+    }
+
+    nav>h1 {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width:768px) {
+    #cardContainer>div {
+        width: 40%;
     }
 }
 
-@media (max-width:585px){
-    #cardContainer > div{
-         width: 45%;
-         margin: 0 auto;
-         margin-bottom:5% ;
-     }
-     nav> h1{
+@media (max-width:585px) {
+    #cardContainer>div {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+    nav>h1 {
         font-size: 32px;
     }
- }
- @media (max-width:470px){
-    #teamLogo{
+}
+
+@media (max-width:470px) {
+    #teamLogo {
         flex-direction: column;
     }
-    #best{
+
+    #best {
         flex-direction: column;
     }
-    #cardContainer > div{
+
+    #cardContainer>div {
         width: 85%;
     }
-    nav> h1{
+
+    nav>h1 {
         font-size: 22px;
     }
-    .myButton{
+
+    .myButton {
         font-size: 10px;
         font-weight: 800;
     }
- }
-
-
+}

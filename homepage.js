@@ -1,86 +1,86 @@
 console.log("Script loaded!!!")
 var teamDetails = [
     {
-        id : 1,
-        name : "Chennai Super Kings",
-        icon : "https://www.searchpng.com/wp-content/uploads/2019/02/Chennai-Super-Kings-Logo-PNG-Image-.png",
-        playerCount : "16",
-        captain : "Mahendra Singh Dhoni",
-        topBatsman : "Suresh Raina",
-        topBowler : "Ravindra Jadeja",
-        champions : "3",
-   },
-   {
-    id :  2,
-    name : "Mumbai Indians",
-    icon : "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png",
-    playerCount : "16",
-    captain : "Rohit Sharma",
-    topBatsman :"Rohit Sharma",
-    topBowler : "Jasprit Bumrah",
-    champions : "5",
-},
-{
-    id :  3,
-    name : "Delhi Capitals",
-    icon : "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Delhi_Capitals_Logo.svg/1200px-Delhi_Capitals_Logo.svg.png",
-    playerCount : "16",
-    captain : "Shreyas Iyer",
-    topBatsman :"Rishabh Pant",
-    topBowler : "Anrich Nortje",
-    champions : "0",
-},
-{
-    id :  4,
-    name : "Kolkata Knight Riders",
-    icon : "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png",
-    playerCount : "16",
-    captain : "Eion Morgan",
-    topBatsman :"Shubhman Gill",
-    topBowler : "Sunil Narine",
-    champions : "2",
-},
-{
-    id :  5,
-    name : "Royal Challengers Bangalore",
-    icon : "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/1200px-Royal_Challengers_Bangalore_2020.svg.png",
-    playerCount : "16",
-    captain : "Virat Kohli",
-    topBatsman :"Virat Kohli",
-    topBowler : "Kyle Jamieson",
-    champions : "0",
-},
-{
-    id :  6,
-    name : "Punjab Kings",
-    icon : "https://upload.wikimedia.org/wikipedia/en/1/1c/Punjab_Kings_logo_2021.png",
-    playerCount : "16",
-    captain : "KL Rahul",
-    topBatsman :"Chris Gayle",
-    topBowler : "Jhye Richardson",
-    champions : "0",
-},
- 
-{
-    id :  7,
-    name : "Rajasthan Royals",
-    icon : "https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg",
-    playerCount : "16",
-    captain : "Sanju Samson",
-    topBatsman :"Ben Stokes",
-    topBowler : "Chris Morris",
-    champions : "1",
-},
-{
-    id :  8,
-    name : "Sunrisers Hyderabad",
-    icon : "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png",
-    playerCount : "16",
-    captain : "Kane Williamson",
-    topBatsman :"David Warner",
-    topBowler : "Bhuvneshwar Kumar",
-    champions : "1",
-}
+        id: 1,
+        name: "Chennai Super Kings",
+        icon: "https://www.searchpng.com/wp-content/uploads/2019/02/Chennai-Super-Kings-Logo-PNG-Image-.png",
+        playerCount: "16",
+        captain: "Mahendra Singh Dhoni",
+        topBatsman: "Suresh Raina",
+        topBowler: "Ravindra Jadeja",
+        champions: "3",
+    },
+    {
+        id: 2,
+        name: "Mumbai Indians",
+        icon: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png",
+        playerCount: "16",
+        captain: "Rohit Sharma",
+        topBatsman: "Rohit Sharma",
+        topBowler: "Jasprit Bumrah",
+        champions: "5",
+    },
+    {
+        id: 3,
+        name: "Delhi Capitals",
+        icon: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Delhi_Capitals_Logo.svg/1200px-Delhi_Capitals_Logo.svg.png",
+        playerCount: "16",
+        captain: "Shreyas Iyer",
+        topBatsman: "Rishabh Pant",
+        topBowler: "Anrich Nortje",
+        champions: "0",
+    },
+    {
+        id: 4,
+        name: "Kolkata Knight Riders",
+        icon: "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png",
+        playerCount: "16",
+        captain: "Eion Morgan",
+        topBatsman: "Shubhman Gill",
+        topBowler: "Sunil Narine",
+        champions: "2",
+    },
+    {
+        id: 5,
+        name: "Royal Challengers Bangalore",
+        icon: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/1200px-Royal_Challengers_Bangalore_2020.svg.png",
+        playerCount: "16",
+        captain: "Virat Kohli",
+        topBatsman: "Virat Kohli",
+        topBowler: "Kyle Jamieson",
+        champions: "0",
+    },
+    {
+        id: 6,
+        name: "Punjab Kings",
+        icon: "https://upload.wikimedia.org/wikipedia/en/1/1c/Punjab_Kings_logo_2021.png",
+        playerCount: "16",
+        captain: "KL Rahul",
+        topBatsman: "Chris Gayle",
+        topBowler: "Jhye Richardson",
+        champions: "0",
+    },
+
+    {
+        id: 7,
+        name: "Rajasthan Royals",
+        icon: "https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg",
+        playerCount: "16",
+        captain: "Sanju Samson",
+        topBatsman: "Ben Stokes",
+        topBowler: "Chris Morris",
+        champions: "1",
+    },
+    {
+        id: 8,
+        name: "Sunrisers Hyderabad",
+        icon: "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png",
+        playerCount: "16",
+        captain: "Kane Williamson",
+        topBatsman: "David Warner",
+        topBowler: "Bhuvneshwar Kumar",
+        champions: "1",
+    }
 ];
 
 
@@ -963,9 +963,7 @@ var players = [
 
 $(document).ready(function () {
     console.log("dom ready")
-    for (let i = 0; i < teamDetails.length; i++)
-     {
-
+    for (let i = 0; i < teamDetails.length; i++) {
         let card = $('<div>').append(
             $('<div>').append($('<img>').attr("src", teamDetails[i].icon)).addClass("imgC"),
             $('<div>').append(
@@ -978,16 +976,15 @@ $(document).ready(function () {
         );
         $('#cardContainer').append(card);
 
-        $(card).click((e)=>
-        {
-            let re=e.delegateTarget.children[1].firstElementChild.innerText
-            for(let i=0;i<teamDetails.length;i++)
-                if(re==teamDetails[i].name){
-                 localStorage.setItem("homeToTeam",JSON.stringify(teamDetails[i]));
-                 localStorage.setItem("homeToTeamP",JSON.stringify(players));
-                 window.open("page2.html","_self")
+        $(card).click((e) => {
+            let re = e.delegateTarget.children[1].firstElementChild.innerText
+            for (let i = 0; i < teamDetails.length; i++)
+                if (re == teamDetails[i].name) {
+                    localStorage.setItem("homeToTeam", JSON.stringify(teamDetails[i]));
+                    localStorage.setItem("homeToTeamP", JSON.stringify(players));
+                    window.open("page2.html", "_self")
                 }
-            
+
         })
     }
 
@@ -995,11 +992,9 @@ $(document).ready(function () {
     $('#ser').on(
         {
             'blur': () => $('#searchedP').css({ "display": "none" }),
-            'keyup': (e) =>
-             {
-              
-                if (e.keyCode == 13)
-                 {
+            'keyup': (e) => {
+
+                if (e.keyCode == 13) {
                     $('#searchedP').css({ "display": "block" })
                     let u = document.getElementById("ser").value;
                     if (u == "")
@@ -1007,8 +1002,7 @@ $(document).ready(function () {
                     else {
                         let uu = teamDetails.filter(a => a.name.toLowerCase().includes(u.toLowerCase()))
                         $('#searchedP p').remove();
-                        for (let i = 0; i < uu.length; i++)
-                         {
+                        for (let i = 0; i < uu.length; i++) {
                             let r = uu[i].name;
                             for (let k = 0; k < players.length; k++)
                                 if (r == players[k].team)
@@ -1023,116 +1017,105 @@ $(document).ready(function () {
     )
 
 
-    // ------------------------------------------------------------
 
-        let qq=[];
+    let qq = [];
     $('#addT').on(
         {
-            // id : 1,
-            // name : "Chennai Super Kings",
-            // icon : "https://www.searchpng.com/wp-content/uploads/2019/02/Chennai-Super-Kings-Logo-PNG-Image-.png",
-            // playerCount : "16",
-            // captain : "Mahendra Singh Dhoni",
-            // topBatsman : "Suresh Raina",
-            // topBowler : "Ravindra Jadeja",
-            // champions : "3",
-            'click':()=>{
+            'click': () => {
                 console.log('hello')
                 $('#inputTaker div').remove();
-                $('#inputTaker').css("display","block");
+                $('#inputTaker').css("display", "block");
                 $('#inputTaker').append(
-                                $('<div>').append(
-                                    $('<label>').text('Enter Team Name'),
-                                    $('<input>').attr("id","teamname")
-                                ),
-                                $('<div>').append(
-                                    $('<label>').text('Enter link for Icon'),
-                                    $('<input>').attr("id","teamicon")
-                                ),
-                                $('<div>').append(
-                                    $('<label>').text('Enter no of players in your team'),
-                                    $('<input>').attr("id","teamcount")
-                                ),
-                                $('<div>').append(
-                                    $('<label>').text('Enter Captain for your team'),
-                                    $('<input>').attr("id","teamcaptain")
-                                ),
-                                $('<div>').append(
-                                    $('<label>').text('Enter top batsman'),
-                                    $('<input>').attr("id","teambat")
-                                ),
-                                $('<div>').append(
-                                    $('<label>').text('Enter top bowler'),
-                                    $('<input>').attr("id","teambowl")
-                                ),
-                                $('<div>').append(
-                                    $('<label>').text('No of times team became champion'),
-                                    $('<input>').attr("id","teamchamp")
-                                ),
-                                $('<div>').append(
-                                    $('<button>').text('Submit').click(()=>{
+                    $('<div>').append(
+                        $('<label>').text('Enter Team Name'),
+                        $('<input>').attr("id", "teamname")
+                    ),
+                    $('<div>').append(
+                        $('<label>').text('Enter link for Icon'),
+                        $('<input>').attr("id", "teamicon")
+                    ),
+                    $('<div>').append(
+                        $('<label>').text('Enter no of players in your team'),
+                        $('<input>').attr("id", "teamcount")
+                    ),
+                    $('<div>').append(
+                        $('<label>').text('Enter Captain for your team'),
+                        $('<input>').attr("id", "teamcaptain")
+                    ),
+                    $('<div>').append(
+                        $('<label>').text('Enter top batsman'),
+                        $('<input>').attr("id", "teambat")
+                    ),
+                    $('<div>').append(
+                        $('<label>').text('Enter top bowler'),
+                        $('<input>').attr("id", "teambowl")
+                    ),
+                    $('<div>').append(
+                        $('<label>').text('No of times team became champion'),
+                        $('<input>').attr("id", "teamchamp")
+                    ),
+                    $('<div>').append(
+                        $('<button>').text('Submit').click(() => {
 
-                                        let a=document.getElementById("teamname").value
-                                        let b=document.getElementById("teamicon").value
-                                        let c=document.getElementById("teamcount").value
-                                        let d=document.getElementById("teamcaptain").value
-                                        let e=document.getElementById("teambat").value
-                                        let f=document.getElementById("teambowl").value
-                                        let g=document.getElementById("teamchamp").value
-                                        if(a==""||b==""||c==""||d==""||e==""||f==""||g=="")
-                                            alert("fill all details")
-                                            else
-                                            {
-                                                let r=
-                                                {
-                                                    name:a,
-                                                    icon:b,
-                                                    playerCount:c,
-                                                    captain:d,
-                                                    topBatsman:e,
-                                                    topBowler:f,
-                                                    champions:g
-                                                }
+                            let a = document.getElementById("teamname").value
+                            let b = document.getElementById("teamicon").value
+                            let c = document.getElementById("teamcount").value
+                            let d = document.getElementById("teamcaptain").value
+                            let e = document.getElementById("teambat").value
+                            let f = document.getElementById("teambowl").value
+                            let g = document.getElementById("teamchamp").value
+                            if (a == "" || b == "" || c == "" || d == "" || e == "" || f == "" || g == "")
+                                alert("fill all details")
+                            else {
+                                let r =
+                                {
+                                    name: a,
+                                    icon: b,
+                                    playerCount: c,
+                                    captain: d,
+                                    topBatsman: e,
+                                    topBowler: f,
+                                    champions: g
+                                }
 
-                                                    qq.push(r);
-                                                    localStorage.setItem('teamdata',JSON.stringify(qq));
+                                qq.push(r);
+                                localStorage.setItem('teamdata', JSON.stringify(qq));
 
-                                                    let card = $('<div>').append(
-                                                        $('<div>').append($('<img>').attr("src", b)).addClass("imgC"),
-                                                        $('<div>').append(
-                                                            $('<h4>').text(a),
-                                                            $('<h5>').text("Captain: " + d),
-                                                            $('<h5>').text("Top Batsman: " +e),
-                                                            $('<h5>').text("Top Bowler: "+f),
-                                                            $('<h5>').text("Champions: "+g),
-                                                        ).addClass("info")
-                                                    );
-                                                    $('#cardContainer').append(card);
-                                        document.getElementById("teamname").value=""
-                                        document.getElementById("teamicon").value=""
-                                        document.getElementById("teamcount").value=""
-                                        document.getElementById("teamcaptain").value=""
-                                        document.getElementById("teambat").value=""
-                                        document.getElementById("teambowl").value=""
-                                        document.getElementById("teamchamp").value=""
+                                let card = $('<div>').append(
+                                    $('<div>').append($('<img>').attr("src", b)).addClass("imgC"),
+                                    $('<div>').append(
+                                        $('<h4>').text(a),
+                                        $('<h5>').text("Captain: " + d),
+                                        $('<h5>').text("Top Batsman: " + e),
+                                        $('<h5>').text("Top Bowler: " + f),
+                                        $('<h5>').text("Champions: " + g),
+                                    ).addClass("info")
+                                );
+                                $('#cardContainer').append(card);
+                                document.getElementById("teamname").value = ""
+                                document.getElementById("teamicon").value = ""
+                                document.getElementById("teamcount").value = ""
+                                document.getElementById("teamcaptain").value = ""
+                                document.getElementById("teambat").value = ""
+                                document.getElementById("teambowl").value = ""
+                                document.getElementById("teamchamp").value = ""
 
-                                                    $('#inputTaker').css("display","none");
-                                                    $(card).click((e)=>
-                                                    {
-                                                            window.open("index.html","_self")
-                                                        
-                                                    })
-                                                
-                                            }
+                                $('#inputTaker').css("display", "none");
+                                $(card).click((e) => {
+                                    window.open("index.html", "_self")
+
+                                })
+
+                            }
 
 
 
-                                    }),
-                                    $('<button>').text("close").click(()=>{
-                                        $('#inputTaker').css("display","none")
-                                    })
-                                ),
-                                
+                        }),
+                        $('<button>').text("close").click(() => {
+                            $('#inputTaker').css("display", "none")
+                        })
+                    ),
+
                 )
             }
         }
